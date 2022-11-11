@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    text-align: center;
+    height: 100px;
+    overflow: hidden;
+    background-color: RGB(16,101,165);
+    border-bottom: 2px solid darkblue;
+}/*最上方图片*/
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.second{
+    height: 50px;
+    background-color: RGB(16,86,165);
+}
+.second ul {
+    height: 100%;
+}
+.second ul li {
+    float: left;
+    width: 150px;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+.second ul .juli{
+    margin-left: 300px;
+}
+.second ul li a{
+    color: white;
+    width: 120px;
+    font-size: 20px;
+    height: 50px;
+}
+.second ul li:hover{
+    background-color: darkblue;
+}
+.second ul li div {
+    overflow: hidden;
+    position: absolute;
+    width: 150px;
+    height: 0;
+    background-color: RGB(16,86,165);
+    /*border: 1px solid rgb(189, 189, 189);*/
+    transition: height 1s ,border 1s linear;
+    -moz-transition:height 1s ,border 1s linear;
+    /* Safari and Chrome */
+    -webkit-transition:height 1s ,border 1s linear;
+    /* Opera */
+    -o-transition:height 1s ,border 1s linear;
+}
+.second ul li:hover div {
+    height: 90px;
+    z-index: 10;
+}
+.second ul li div ul {
+    width: 100%;
+    height: 200px;
+}
+.second ul li div ul li {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 0;
+}
+.second ul li div ul li a{
+    color: white;
+}
+.third{
+    position: relative;
+    height: 400px;
+    margin-top: 1px;
+}
+.third img{
+    height: 100%;
+    width: 100%;
+}
+.third .yuan{
+    position: absolute;
+    left: 550px;
+    bottom: 10px;
+}
+.third .yuan .yuan1{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border:1px solid white;
+    opacity: 1;
+}
+.third .yuan .yuan2{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border:1px solid white;
+    opacity: 0.3;
+}
+.third .jian{
+    font-size: 60px;
+    position: absolute;
+    bottom: 150px;
+    background: transparent;
+    border-style: hidden;
+    color: white;
+    cursor: pointer;
+}
+.third #jianleft{
+    left: 30px;
+}
+.third #jianright{
+    right: 30px;
+}
+.fourth{
+    height: 670px;
+    margin-top: 30px;
+}
+.fourth #div1{
+    float: left;
+    width: 44%;
+    height: 700px;
+}
+.fourth #div1 div{
+    border:1px solid white;
+    height: 60px;
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 0px 0px 10px 0px #aaa;
+}
+.fourth #div1 div .waiyuan{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #b3d4fc;
+    border: none;
+    margin-left: -9px;
+    margin-top: 20px;
+}
+.fourth #div1 div .neiyuan{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: darkblue;
+    border: none;
+    margin-left: -16px;
+    margin-bottom: 4px;
+}
+.fourth #div1 div p{
+    margin-top: -22px;
+}
+.fourth #div1 div p a{
+    font-size: 18px;
+}
+.fourth #div1 div p label{
+    color: #888888;
+}
+.fourth #div2{
+    float: left;
+    width: 28%;
+    height: 670px;
+}
+.fourth #div2 .headmark{
+    float: left;
+    width: 100%;
+    height: 60px;
+}
+.fourth #div2 .headmark h1{
+    font-size: 30px;
+    margin-top:-60px;
+    margin-left: 60px;
+}
+.fourth #div2 .headmark h1 p{
+    font-size: 10px;
+}
+.fourth #div2 .laterjieshao{
+    float: left;
+    width: 100%;
+    height: 610px;
+    border-right: 5px solid RGB(16,85,191);
+}
+.fourth #div2 .laterjieshao p{
+    margin-left: 25%;margin-top: 60px;
+}
+.fourth #div2 .laterjieshao hr{
+    border: none;border-top: 3px solid RGB(16,85,191);width: 50px;margin-left: 86%;
+}
+.fourth #div2 div button{
+    margin-left: 98.4%;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background-color: RGB(16,85,191);
+    border: none;
+}
+.fourth #div3{
+    float: left;
+    width: 28%;
+    height: 670px;
+    overflow: hidden;
+}
+.fourth #div3 #p1{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.fourth #div3 #p2{
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.fourth #div3 hr{
+    border: none;
+    border-top: 3px solid RGB(16,85,191);
+    width: 50px;
+}
+.fourth #div3 h1{
+    margin-left: 60%;
+    color: #b3d4fc;
+    margin-top: 80px;
+}
+.fourth .jieshao{
+    border: 2px solid darkblue;
+    color: black;
+    border-radius: 5%;
+    width: 280px;
+    height:35px;
+    margin-left: 50px;
+    overflow: hidden;
+    transition: height 2s ,border 2s linear;
+    -moz-transition:height 2s ,border 2s linear;
+    /* Safari and Chrome */
+    -webkit-transition:height 2s ,border 2s linear;
+    /* Opera */
+    -o-transition:height 2s ,border 2s linear;
+}
+.fourth .jieshao:hover{
+    height: 268px;
+    z-index: 10;
+}
+.fifth{
+    background-color: RGB(16,101,165);
+    height: 250px;
+    text-align: center;
+}
+.fifth img{
+    margin-top: 20px;
+}
+.fifth p{
+    margin-top: 30px;
+    color: white;
+}

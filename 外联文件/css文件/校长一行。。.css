@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    text-align: center;
+    height: 100px;
+    overflow: hidden;
+    background-color: RGB(16,101,165);
+    border-bottom: 2px solid darkblue;
+}/*最上方图片*/
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.second{
+    height: 50px;
+    background-color: RGB(16,86,165);
+}
+.second ul {
+    height: 100%;
+}
+.second ul li {
+    float: left;
+    width: 150px;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+.second ul .juli{
+    margin-left: 300px;
+}
+.second ul li a{
+    color: white;
+    width: 120px;
+    font-size: 20px;
+    height: 50px;
+}
+.second ul li:hover{
+    background-color: darkblue;
+}
+.second ul li div {
+    overflow: hidden;
+    position: absolute;
+    width: 150px;
+    height: 0;
+    background-color: RGB(16,86,165);
+    /*border: 1px solid rgb(189, 189, 189);*/
+    transition: height 1s ,border 1s linear;
+    -moz-transition:height 1s ,border 1s linear;
+    /* Safari and Chrome */
+    -webkit-transition:height 1s ,border 1s linear;
+    /* Opera */
+    -o-transition:height 1s ,border 1s linear;
+}
+.second ul li:hover div {
+    height: 90px;
+    z-index: 10;
+}
+.second ul li div ul {
+    width: 100%;
+    height: 200px;
+}
+.second ul li div ul li {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 0;
+}
+.second ul li div ul li a{
+    color: white;
+}
+.third{
+    height: 3000px;
+}
+.third div{
+    height: 100%;
+    float: left;
+}
+.third div div{
+    height: 100%;
+    float: left;
+}
+.third div div div{
+    width: 100%;
+    float: left;
+}
+.third div div div .headp{
+    color: #cccccc;margin-top: 20px;
+}
+.third div div div .headh{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.third div div div .headt{
+    color: #cccccc;
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+.third div div div .suixiang{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 宋体;
+}
+.third div div div .yiban{
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 宋体;
+}
+.third div div div .zhengwen{
+    font-size: 16px;
+    font-family: 宋体;
+    text-indent: 2em;
+    word-break: break-all;
+    line-height: 1.7em;
+}
+.third div div div .teshu{
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 宋体;
+}
+.third div div div div .headtu{
+    font-size: 20px;text-align: center;font-family: 宋体;margin-top: 25%;
+}
+.third div div div div input{
+    width: 10px;height: 10px;border-radius: 50%;border: 2px solid lightskyblue;
+}
+.third div div div div .tubiao{
+    font-family: 宋体;margin-left: 16px;font-size: 26px;
+}
+.third div div div div img{
+    margin-left: 40px;margin-top: 30px
+}
+.fifth{
+    background-color: RGB(16,101,165);
+    height: 250px;
+    text-align: center;
+}
+.fifth img{
+    margin-top: 20px;
+}
+.fifth p{
+    margin-top: 30px;
+    color: white;
+}
